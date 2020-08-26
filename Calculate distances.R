@@ -14,6 +14,7 @@ df_telo = read.table(spot_telo, header = TRUE, sep = "\t")
 df_bp1 = read.table(spot_bp1, header = TRUE, sep = "\t")
 
 
+<<<<<<< HEAD
 calculate_distance = function(main_df, idx_spots1, idx_spots2, 
                               df_spot1, df_spot2,decfriend = FALSE){
   if (main_df[idx_spots1] > 0 & main_df[idx_spots2] > 0){
@@ -31,3 +32,6 @@ df_main_filtered = data.frame(
   'Spots_bp1' = df_main$X53bp1_spots..Counts,
   'Spots_telo' = df_main$telo550_spots..Counts
 )
+=======
+# for testing create a limited df with shorter name
+>>>>>>> 26a1f17dbb1e874858090de457d31fc52c556081
