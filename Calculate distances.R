@@ -1,0 +1,17 @@
+# packages to import:
+
+
+# file names
+main = './data/ninth_Main.txt'
+spot_telo = './data/ninth_telo550_spots.txt'
+spot_bp1 = './data/ninth_53bp1_spots.txt'
+
+
+# import the datatabels 
+
+df_main = read.table(main, header = TRUE, sep = "\t")
+df_telo = read.table(spot_telo, header = TRUE, sep = "\t")
+df_bp1 = read.table(spot_bp1, header = TRUE, sep = "\t")
+
+
+# for testing create a limited df with shorter name
